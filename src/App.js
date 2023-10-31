@@ -8,11 +8,11 @@ const App = () => {
   };
 
   useEffect(() => {
-    console.log("나는 마운트 될 때 실행됩니다");
+    console.log("나는 렌더링 될 때마다 실행됩니다");
   });
 
   useEffect(() => {
-    console.log("나는 렌더링 될 때 한번만 실행됩니다");
+    console.log("나는 마운트 될 때 한번만 실행됩니다");
   }, []);
 
   useEffect(() => {
